@@ -13,7 +13,7 @@
                     <div><img src="@/assets/img/sim_card_black_24dp.svg" alt="" class='grayscale' /></div>
                 </div>
                 <div class="body">
-                    NCZI: ANNA SLOUKOVA Ing, 1965, COVID-19 PASS: D41-290-122, Typ: PCR, odber zo dna 4.12.2021 je NEGATIVNY. V pripade zmeny zdravotneho stavu volajte vseobecneho lekara.
+                    NCZI: ANNA SLOUKOVA Ing, 1965, COVID-19 PASS: D41-290-122, Typ: AG, odber zo dna 16.12.2021 je NEGATIVNY. V pripade zmeny zdravotneho stavu volajte vseobecneho lekara.
                 </div>
             </div>
 
