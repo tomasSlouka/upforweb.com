@@ -5,10 +5,12 @@
 /* @import url('https://fonts.googleapis.com/css?family=Caveat:400,700|Concert+One|Exo+2|Patrick+Hand|Source+Sans+Pro:300,400,600,700&display=swap&subset=latin-ext'); */
 /* @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap'); */
+
 /* Reset CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -31,6 +33,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 400;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
 div {
     box-sizing: border-box;
 }
@@ -43,7 +52,7 @@ div {
 }
 
 body {
-    font-family: 'Open sans', sans-serif; /* for all texts */
+    font-family: "system"; /* for all texts */
     color: #333;
     font-size: 16px;
     line-height: 1.688em;
@@ -53,7 +62,7 @@ body {
 
 /* Headlines */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open sans', sans-serif; /* for all headlines */
+    font-family: "system"; /* for all headlines */
     line-height: 1.4em;
 }
 /* h1, .h1 {
@@ -145,7 +154,7 @@ p > a.white:hover {
     text-decoration: none;
 }
 button, .button {
-    font-family: 'Open sans', sans-serif; /* for all texts */
+    font-family: "system"; /* for all texts */
     cursor: pointer;
     transition: 0.3s;
 }
@@ -223,7 +232,7 @@ input, select {
     display: block;
     width: 100%;
     max-width: 100%;
-    font-family: 'Open sans', sans-serif;
+    font-family: "system";
     box-sizing: border-box;
     height: 45px;
     -webkit-transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -244,7 +253,7 @@ textarea {
     /* display: block; */
     width: 100%;
     max-width: 100%;
-    font-family: 'Open sans', sans-serif;
+    font-family: "system";
     box-sizing: border-box;
     height: 136.4px;
     -webkit-transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -254,13 +263,13 @@ textarea {
 input::placeholder, textarea::placeholder, select::placeholder {
     color: #bbb;
     font-weight: 400;
-    font-family: 'Open sans', sans-serif;
+    font-family: "system";
     font-size: 14px;
 }
 input:focus, textarea:focus, select:focus {
     /* background-color: #fff; */
     font-weight: 400;
-    font-family: 'Open sans', sans-serif;
+    font-family: "system";
     border: 1px solid transparent;
     border-left: 3px solid #39ac37;
 }
