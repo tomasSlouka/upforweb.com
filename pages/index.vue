@@ -1,5 +1,6 @@
 <template>
     <div class='page'>
+        {{host}}
         <Header />
         <Hero />
     </div>
@@ -14,6 +15,13 @@ export default {
         components: {
             Header, Hero,
     },
+    async asyncData ({ req, res }) {
+        if (process.server) {
+            return { host: "Server:" + req.headers.host }
+        } else {
+            return { host: "Client:" + window.location.host }
+        }
+    }
 }
 </script>
 
